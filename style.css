@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.container > div {
+    display: flex;
+}
+
+.grid {
+    width: 10px;
+    height: 10px;
+}
+
+.grid-change {
+    background-color: #333333;
+}
